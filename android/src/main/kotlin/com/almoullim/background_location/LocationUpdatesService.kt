@@ -50,7 +50,7 @@ class LocationUpdatesService : Service() {
             intent.putExtra(EXTRA_STARTED_FROM_NOTIFICATION, true)
             
             val builder = NotificationCompat.Builder(this)
-                    .setContentTitle("Background service is running")
+                    .setContentTitle("Gonher esta corriendo...")
                     .setOngoing(true)
                     .setSound(null)
                     .setPriority(Notification.PRIORITY_HIGH)
